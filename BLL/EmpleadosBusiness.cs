@@ -1,6 +1,7 @@
 ﻿using Dal;
 using Entity;
 using System.Data.SqlClient;
+using System.Net;
 using System.Transactions;
 
 namespace BLL
@@ -12,23 +13,12 @@ namespace BLL
         {
             try
             {
-                string dni = empleado.DNI.ToString();
+               
                 using (var trx = new TransactionScope())
                 {
 
-                    if (empleado.Apellido.Length < 5)
-                    {
-                        throw new Exception("El apellido debe tener mas de 5 letras");
-                    }
-                    if (dni.Length != 11)
-                    {
-                        throw new Exception("El DNI debe tener 11 numeros");
-                    }
-                    if (empleado.Sueldo < 100000)
-                    {
-                        throw new Exception("El sueldo brutos debe ser mayor a $100.000");
-                    }
-                    empleado.Sueldo = CalcularSueldoNeto(empleado.Sueldo);
+                  
+                    empleado.SueldoNeto = CalcularSueldoNeto(empleado.SueldoBruto);
                     empleadoData.GuardarEmpleado(empleado);
                     trx.Complete();
                 }
@@ -45,8 +35,22 @@ namespace BLL
             {
                 using (var trx = new TransactionScope())
                 {
+
                     foreach (Empleados empleados in empleado)
                     {
+                        string dni = empleados.DNI.ToString();
+                        if (empleados.Apellido.Length <= 5)
+                        {
+                            throw new Exception($"El apellido {empleados.Apellido} debe tener mas de 5 letras");
+                        }
+                        if (dni.Length != 11)
+                        {
+                            throw new Exception($"El DNI {empleados.DNI} debe tener 11 numeros");
+                        }
+                        if (empleados.SueldoBruto < 100000)
+                        {
+                            throw new Exception("El sueldo brutos debe ser mayor a $100.000");
+                        }
                         GuardaEmpleado(empleados);
                     }
                     trx.Complete();

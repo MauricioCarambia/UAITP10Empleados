@@ -49,11 +49,14 @@
             // 
             dgvEmpleados.AllowUserToAddRows = false;
             dgvEmpleados.AllowUserToDeleteRows = false;
+            dgvEmpleados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvEmpleados.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvEmpleados.Location = new Point(6, 22);
+            dgvEmpleados.MultiSelect = false;
             dgvEmpleados.Name = "dgvEmpleados";
             dgvEmpleados.ReadOnly = true;
-            dgvEmpleados.Size = new Size(492, 386);
+            dgvEmpleados.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvEmpleados.Size = new Size(367, 386);
             dgvEmpleados.TabIndex = 0;
             // 
             // btnBorrador
@@ -94,9 +97,9 @@
             label2.Font = new Font("Segoe UI", 12F);
             label2.Location = new Point(36, 88);
             label2.Name = "label2";
-            label2.Size = new Size(37, 21);
+            label2.Size = new Size(138, 21);
             label2.TabIndex = 4;
-            label2.Text = "DNI";
+            label2.Text = "DNI (11 Numeros)";
             // 
             // label3
             // 
@@ -167,7 +170,7 @@
             groupBox2.Controls.Add(dgvEmpleados);
             groupBox2.Location = new Point(269, 12);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(504, 414);
+            groupBox2.Size = new Size(381, 414);
             groupBox2.TabIndex = 11;
             groupBox2.TabStop = false;
             groupBox2.Text = "Empleados";
@@ -176,7 +179,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(680, 450);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Form1";

@@ -15,13 +15,14 @@ namespace Dal
                     using (conn)
                     {
                         conn.Open();
-                        SqlCommand cmd = new SqlCommand("INSERT INTO Empleado (APELLIDO, DNI, SUELDOBRUTO) VALUES (@Apellido, @DNI, @SueldoBruto)", conn);
+                        SqlCommand cmd = new SqlCommand("INSERT INTO Empleado (APELLIDO, DNI, SUELDOBRUTO, SUELDONETO) VALUES (@Apellido, @DNI, @SueldoBruto, @SueldoNeto)", conn);
 
                         using (cmd)
                         {
                             cmd.Parameters.AddWithValue("@Apellido", empleado.Apellido);
                             cmd.Parameters.AddWithValue("@DNI", empleado.DNI);
-                            cmd.Parameters.AddWithValue("@SueldoBruto", empleado.Sueldo);
+                            cmd.Parameters.AddWithValue("@SueldoBruto", empleado.SueldoBruto);
+                            cmd.Parameters.AddWithValue("@SueldoNeto", empleado.SueldoNeto);
                             cmd.ExecuteNonQuery();
                         }
                     }
@@ -55,9 +56,10 @@ namespace Dal
                                 Empleados empleado = new Empleados();
                                 {
                                     
-                                    empleado.Apellido = reader.GetString(1);
-                                    empleado.DNI = reader.GetInt64(2);
-                                    empleado.Sueldo = reader.GetDouble(3);
+                                    empleado.Apellido = reader.GetString(0);
+                                    empleado.DNI = reader.GetInt64(1);
+                                    empleado.SueldoBruto = reader.GetDouble(2);
+                                    empleado.SueldoNeto = reader.GetDouble(3);
                                 }
                                 listaEmpleados.Add(empleado);
                             }

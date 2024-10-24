@@ -21,9 +21,9 @@ namespace UI
                 Empleados empleados = new Empleados();
                 empleados.Apellido = txtApellido.Text;
                 empleados.DNI = Convert.ToInt64(txtDNI.Text);
-                empleados.Sueldo = Convert.ToDouble(txtSueldo.Text);
+                empleados.SueldoBruto = Convert.ToDouble(txtSueldo.Text);
                 listaEmpleados.Add(empleados);
-                MessageBox.Show("Empleado agregados en borrador");
+                MessageBox.Show("Empleado agregado en borrador");
                 Limpiar();
             }
             catch (Exception ex)

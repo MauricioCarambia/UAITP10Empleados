@@ -6,6 +6,7 @@ namespace Entity
     {
         public string Apellido { get; set; }
         public long DNI { get; set; }
-        public double Sueldo { get; set; }
+        public double SueldoBruto { get; set; }
+        public double SueldoNeto { get; set; }
     }
 }
