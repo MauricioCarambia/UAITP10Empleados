@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\UAI\\LUG\\Itinerario 10 - Transaccion de negocio\\TP 10 Sueldos\\UAITP10Empleados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|e:\\uai\\lug\\itinerario 10 - transaccion de negocio\\tp 10 sueldos\\uaitp10empleados\\data\\empleadosdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|solutionrelative:data\\empleadosdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|e:\\uai\\lug\\itinerario 10 - transaccion de negocio\\tp 10 sueldos\\uaitp10empleados\\bll\\empleadosbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|solutionrelative:bll\\empleadosbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|e:\\uai\\lug\\itinerario 10 - transaccion de negocio\\tp 10 sueldos\\uaitp10empleados\\data\\empleadosdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|solutionrelative:data\\empleadosdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|e:\\uai\\lug\\itinerario 10 - transaccion de negocio\\tp 10 sueldos\\uaitp10empleados\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,25 +67,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmpleadosBusiness.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Itinerario 10 - Transaccion de negocio\\TP 10 Sueldos\\UAITP10Empleados\\BLL\\EmpleadosBusiness.cs",
               "RelativeDocumentMoniker": "BLL\\EmpleadosBusiness.cs",
               "ToolTip": "E:\\UAI\\LUG\\Itinerario 10 - Transaccion de negocio\\TP 10 Sueldos\\UAITP10Empleados\\BLL\\EmpleadosBusiness.cs",
               "RelativeToolTip": "BLL\\EmpleadosBusiness.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAqwE0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwE0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T00:40:48.021Z"
+              "WhenOpened": "2024-10-24T00:40:48.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EmpleadosData.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Itinerario 10 - Transaccion de negocio\\TP 10 Sueldos\\UAITP10Empleados\\Data\\EmpleadosData.cs",
               "RelativeDocumentMoniker": "Data\\EmpleadosData.cs",
               "ToolTip": "E:\\UAI\\LUG\\Itinerario 10 - Transaccion de negocio\\TP 10 Sueldos\\UAITP10Empleados\\Data\\EmpleadosData.cs",
               "RelativeToolTip": "Data\\EmpleadosData.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAUwEIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T00:40:21.252Z",
               "EditorCaption": ""
