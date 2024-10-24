@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|solutionrelative:entity\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|e:\\uai\\lug\\itinerario 10 - transaccion de negocio\\tp 10 sueldos\\uaitp10empleados\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|E:\\UAI\\LUG\\Itinerario 10 - Transaccion de negocio\\TP 10 Sueldos\\UAITP10Empleados\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Entity\\Empleados.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T01:18:44.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T01:18:44.406Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "BLL\\EmpleadosBusiness.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAqwE0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T00:40:48.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T00:40:48.021Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "ToolTip": "E:\\UAI\\LUG\\Itinerario 10 - Transaccion de negocio\\TP 10 Sueldos\\UAITP10Empleados\\UI\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T00:15:09.168Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-24T00:15:09.168Z"
             }
           ]
         }
